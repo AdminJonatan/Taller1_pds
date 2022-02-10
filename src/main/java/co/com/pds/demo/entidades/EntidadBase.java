@@ -17,10 +17,10 @@ import lombok.Setter;
 public class EntidadBase {
 
 	
-	@Id
+	/*@Id
 	@GeneratedValue
 	@Column(name = "id", updatable = false, nullable = false, unique = true)
-	protected Long id;
+	protected Long id;*/
 	
 	
 	@Override
