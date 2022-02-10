@@ -22,13 +22,10 @@ public class Project extends  EntidadBase  {
     private  Long id;
 
     @Column(name = "NOMBRE")
-    @NotEmpty(message = "El campo no puede estar en blanco")
     private String projecNAME;
     @Column(name = "IDENTIFICADOR")
-    @NotEmpty(message = "El campo no puede estar en blanco")
     private String projecidentifier;
     @Column(name = "DESCRIPCION")
-    @NotEmpty(message = "El campo no puede estar en blanco")
     private String description;
     @Column(name = "FECAH_INICIO")
     private Date startDate;

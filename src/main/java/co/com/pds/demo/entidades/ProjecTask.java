@@ -19,12 +19,9 @@ public class ProjecTask extends EntidadBase{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name ="id_projecTask1")
-    @NotEmpty(message = "El campo no puede estar en blanco")
     private  Long id;
 
-    @NotEmpty(message = "El campo no puede estar en blanco")
     private String name;
-    @NotEmpty(message = "El campo no puede estar en blanco")
     private String summary;
     private String acceptanceCriteria;
     private String status;
