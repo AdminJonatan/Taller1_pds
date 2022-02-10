@@ -1,6 +1,7 @@
 package co.com.pds.demo.repositorio;
 
-import co.com.taller1.taller1.entities.ProjecTask;
+import co.com.pds.demo.entidades.ProjecTask;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

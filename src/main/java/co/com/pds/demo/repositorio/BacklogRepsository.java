@@ -1,7 +1,6 @@
 package co.com.pds.demo.repositorio;
 
-import co.com.taller1.taller1.entities.Backlog;
-
+import co.com.pds.demo.entidades.Backlog;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
