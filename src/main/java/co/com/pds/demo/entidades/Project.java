@@ -18,7 +18,7 @@ public class Project extends  EntidadBase  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name ="id")
+    @Column(name ="id_project")
     private  Long id;
 
     @Column(name = "NOMBRE")

@@ -18,7 +18,7 @@ public class Backlog extends  EntidadBase{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name ="id")
+    @Column(name ="id_backlog1")
     private  Long id;
     private  String projecidentifier;
 

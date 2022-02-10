@@ -18,7 +18,7 @@ public class ProjecTask extends EntidadBase{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name ="id")
+    @Column(name ="id_projecTask1")
     private  Long id;
 
     private String name;
