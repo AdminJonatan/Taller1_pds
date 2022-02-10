@@ -22,7 +22,7 @@ public class EntidadBase {
 	@Column(name = "id", updatable = false, nullable = false, unique = true)
 	protected Long id;*/
 	
-	
+	/*
 	@Override
 	public boolean equals(Object o) {
 		if(this == o ) return true;
@@ -34,5 +34,5 @@ public class EntidadBase {
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
-	}
+	}*/
 }

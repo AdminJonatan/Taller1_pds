@@ -27,7 +27,6 @@ public class Backlog extends  EntidadBase{
     @JoinColumn(name = "project_id")
     private  Project project;
 
-
     @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "project_task_id")
     private List<ProjecTask> projecTasks;
