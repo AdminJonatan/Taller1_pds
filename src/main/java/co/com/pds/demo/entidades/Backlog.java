@@ -20,6 +20,7 @@ public class Backlog extends  EntidadBase{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name ="id_backlog1")
     private  Long id;
+    @NotEmpty(message = "El campo no puede estar en blanco")
     private  String projecidentifier;
 
     //@JsonBackReference // para que no muestre la relacion
