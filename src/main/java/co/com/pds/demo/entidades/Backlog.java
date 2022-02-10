@@ -21,7 +21,7 @@ public class Backlog extends  EntidadBase{
     private  Long id;
     private  String projecidentifier;
 
-    @JsonBackReference // para que no muestre la relacion
+    //@JsonBackReference // para que no muestre la relacion
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "project_id")
     private  Project project;

@@ -28,7 +28,7 @@ public class Project extends  EntidadBase  {
     private Date endDate;
 
 
-    @JsonBackReference // para que no muestre la relacion
+    //@JsonBackReference // para que no muestre la relacion
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "backlog_id")
     private Backlog backlog;
