@@ -16,6 +16,11 @@ import java.util.Objects;
 @Table(name = "project1")
 public class Project extends  EntidadBase  {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name ="id")
+    private  Long id;
+
     @Column(name = "NOMBRE")
     private String projecNAME;
     @Column(name = "IDENTIFICADOR")

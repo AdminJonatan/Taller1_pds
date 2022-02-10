@@ -16,7 +16,10 @@ import java.util.Objects;
 @Table(name = "projecTask1")
 public class ProjecTask extends EntidadBase{
 
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name ="id")
+    private  Long id;
 
     private String name;
     private String summary;
